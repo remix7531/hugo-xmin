@@ -3,6 +3,7 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
 }
 
 /* header and footer areas */
@@ -28,6 +29,9 @@ pre {
   box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 code { background: #f9f9f9; }
 pre code { background: none; }
